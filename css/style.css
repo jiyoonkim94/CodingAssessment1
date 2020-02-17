@@ -1,0 +1,30 @@
+img{
+    width: 125px; 
+    margin-bottom: 10px; 
+    /*Your code here*/
+    background-position: center;
+    display: grid;
+
+   
+    
+ }
+
+div{
+    
+    padding: 25px; 
+    margin:5px; 
+    display: grid;
+    grid-column: 2 / span 1;
+    max-height: 800px;
+    grid-template-columns: 100px 100px;
+    background-image: url(/images/background.jpeg);
+    /* YOUR CODE HERE */
+
+ }
+ @media screen and (min-width: 800px){
+     grid-column: 3 / span 1;
+     grid-template-columns: 100px 100px 100px;
+
+  }
+  
+ 
